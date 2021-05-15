@@ -73,5 +73,5 @@ img {
 
 @font-face {
   font-family: "font-snk";
-  src: url(/nsi/Projets/assets/font/kaiserzeit_gotisch/KAISG___.TTF);
+  src: url(../font/kaiserzeit_gotisch/KAISG___.TTF);
 }
