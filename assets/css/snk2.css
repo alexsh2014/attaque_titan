@@ -1,0 +1,136 @@
+.dropdownmenu {
+  background-color: #666;
+  width: 300px;
+}
+.dropdownmenu {
+  /* Pour le menu principal */
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  border: black 10px double;
+  background-clip: content-box;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.dropdownmenu ul {
+  /* Pour les sous-menus */
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.dropdownmenu ul {
+  display: none;
+  border: black 10px double;
+  background-clip: content-box;
+  border-top-left-radius: 26px;
+  border-top-right-radius: 26px;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+}
+.dropdownmenu li {
+  position: relative;
+}
+.dropdownmenu a {
+  display: block;
+  width: 300px;
+  height: 100px;
+  line-height: 100px;
+  padding: 3px 10px;
+  text-align: center;
+}
+.dropdownmenu li:hover ul {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  z-index: 100;
+}
+.dropdownmenu li {
+  background-color: rgba(68, 100, 160); /* Couleur d'arriere-plan du menu */
+  transition: all 0.5s ease-out;
+}
+.dropdownmenu li a {
+  color: #ccc; /* Couleur du texte du menu */
+}
+.dropdownmenu li:hover {
+  background-color: rgb(
+    12,
+    3,
+    97
+  ); /* Couleur d'arriere-plan du menu au survol */
+}
+.dropdownmenu li:hover a {
+  color: #fff; /* Couleur du texte du menu au survol */
+}
+.dropdownmenu ul li {
+  background-color: rgb(
+    62,
+    125,
+    184
+  ); /* Couleur d'arriere-plan des sous-menu */
+}
+.dropdownmenu ul li:hover {
+  background-color: rgb(
+    12,
+    3,
+    97
+  ); /* Couleur d'arriere-plan des sous-menu au survol */
+}
+.dropdownmenu ul li a {
+  color: #666; /* Couleur du texte des sous-menu */
+}
+.dropdownmenu ul li:hover a {
+  color: rgb(255, 49, 49); /* Couleur du texte des sous-menu au survol */
+}
+
+@font-face {
+  font-family: "font-snk";
+  src: url(../font/kaiserzeit_gotisch/KAISG___.TTF);
+}
+
+@font-face {
+  font-family: "font2-snk";
+  src: url(../font/cloister_black/CloisterBlack.ttf);
+}
+
+h1 {
+  text-align: center;
+  font-family: "font-snk";
+  font-size: 75px;
+}
+
+img {
+  float: right;
+  border-radius: 25px;
+}
+
+body {
+  font-size: 20px;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p {
+  color: rgb(255, 255, 255);
+}
+
+li {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: "font2-snk";
+}
+
+.first {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.last {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}

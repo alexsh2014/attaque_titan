@@ -1,0 +1,77 @@
+body {
+  z-index: 2;
+  font-size: 20px;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* body{
+    z-index: 1;
+    background-color: grey;
+    opacity: 0.6;
+    background-clip: content-box;
+} */
+
+h1 {
+  z-index: 3;
+  font-size: 65px;
+  text-align: center;
+  font-family: "font-snk";
+}
+
+h2 {
+  font-family: "font-snk";
+}
+
+p {
+  color: rgb(255, 255, 255);
+}
+
+li {
+  color: rgb(255, 255, 255);
+}
+
+img {
+  border-radius: 25px;
+}
+
+#factions {
+  margin-left: 25%;
+}
+
+#titan-primordial img {
+  margin-top: -250px;
+  float: right;
+  margin-right: 5%;
+}
+
+#id {
+  float: right;
+  margin-right: 5%;
+}
+
+#armin {
+  float: right;
+  margin-right: 15%;
+}
+
+#eren {
+  float: right;
+  margin-right: 15%;
+}
+
+#titan_assillant {
+  float: right;
+  margin-right: 5%;
+}
+
+#mikasa {
+  float: right;
+  margin-right: 15%;
+}
+
+@font-face {
+  font-family: "font-snk";
+  src: url(/nsi/Projets/assets/font/kaiserzeit_gotisch/KAISG___.TTF);
+}
